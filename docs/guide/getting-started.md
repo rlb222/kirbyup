@@ -20,6 +20,8 @@ These are recommended instead of [Kirby's default `pluginkit`](https://github.co
 ## Installation
 
 Use a package manager of your choice to install `kirbyup` as a development dependency:
+From the folder /yourproject/site/plugins/myplugin/ you type one of the following:
+Question: What folder should I cd to, when I give this command? 
 
 ::: code-group
   ```bash [pnpm]
@@ -71,7 +73,8 @@ kirbyup provides a CLI to build and serve your Panel plugin. It uses Vite under 
 
 ### Development
 
-Start a development server for the Panel plugin:
+Start a development server for the Panel plugin, 
+from this folder: /yourproject/site/plugins/yourplugin/  same question: where am i when i type this command? 
 
 ```bash
 npm run dev
